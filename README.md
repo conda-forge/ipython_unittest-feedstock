@@ -13,20 +13,21 @@ This extension provides testing support to IPython through cell magics.
 Currently, we have three magics that transforms the cell code and executes unittest:
 `%%unittest_main`, `%%unittest_testcase` and `%%unittest`;
 one magic to run external tests: `%%external`;
-and one associated magic to write external files with syntax highlight: `%%write {mode}`
+and one associated magic to write external files: `%%write {mode}`
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ipython_unittest-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ipython_unittest-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ipython_unittest-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ipython_unittest-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ipython_unittest-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ipython-unittest-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/ipython_unittest-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/ipython_unittest-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython_unittest/badges/version.svg)](https://anaconda.org/conda-forge/ipython_unittest)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipython_unittest/badges/downloads.svg)](https://anaconda.org/conda-forge/ipython_unittest)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ipython_unittest-green.svg)](https://anaconda.org/conda-forge/ipython_unittest) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ipython_unittest.svg)](https://anaconda.org/conda-forge/ipython_unittest) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ipython_unittest.svg)](https://anaconda.org/conda-forge/ipython_unittest) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ipython_unittest.svg)](https://anaconda.org/conda-forge/ipython_unittest) |
 
 Installing ipython_unittest
 ===========================
@@ -71,6 +72,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
